@@ -1,0 +1,46 @@
+{
+  "name": "visual-testing-handbook-react-template",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.1.3",
+    "@eslint/js": "^9.39.1",
+    "@storybook/addon-docs": "^10.1.11",
+    "@storybook/addon-vitest": "^10.1.11",
+    "@storybook/react-vite": "^10.1.11",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "@vitest/browser-playwright": "^4.0.16",
+    "@vitest/coverage-v8": "^4.0.16",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "eslint-plugin-storybook": "^10.1.11",
+    "globals": "^16.5.0",
+    "playwright": "^1.57.0",
+    "storybook": "^10.1.11",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vite": "^7.2.4",
+    "vitest": "^4.0.16"
+  },
+  "packageManager": "yarn@4.12.0",
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
